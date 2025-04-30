@@ -1,9 +1,9 @@
 # 🚗 AutoLog: Smart Vehicle Logging System               
 
-Link = "https://autolog-app.onrender.com/"
+Link: AutoLog App
 
 ## 🎯 What I Built
-I developed AutoLog, a smart vehicle logging system that automates monitoring for parking areas and entry gates. My work focused on integrating camera-based detection with AI-driven image processing and OCR to capture vehicle details like license plates, types, and timestamps. I built a FastAPI backend to handle real-time data, stored it in a cloud-hosted PostgreSQL database, and created a React-based web dashboard for admins to view logs and manage fares. This project eliminates manual tracking, reduces errors, and enhances parking efficiency.
+We developed AutoLog, a smart vehicle logging system that automates monitoring for parking areas and entry gates. Our work focused on integrating camera-based detection with AI-driven image processing and OCR to capture vehicle details like license plates, types, and timestamps. We built a FastAPI backend to handle real-time data, stored it in a cloud-hosted PostgreSQL database, and created a React-based web dashboard for admins to view logs and manage fares. This project eliminates manual tracking, reduces errors, and enhances parking efficiency.
 
 ## 💡 Why It Matters
 AutoLog replaces slow, error-prone manual vehicle logging with an intelligent, automated solution. It uses AI to log data instantly, stores it securely in the cloud, and presents it through a user-friendly dashboard, making parking management faster and more transparent for residential, commercial, and smart city use cases.
