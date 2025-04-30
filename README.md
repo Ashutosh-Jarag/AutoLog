@@ -1,23 +1,33 @@
-# 🚀 AutoLog Frontend             "https://autolog-app.onrender.com/"
+# 🚗 AutoLog: Smart Vehicle Logging System               "https://autolog-app.onrender.com/"
 
-## 🌟 What I Built
-I crafted the frontend for AutoLog, a smart vehicle logging system, using **Create React App** to kickstart a fast, responsive web dashboard. My work focused on building a sleek interface with React, styled with Tailwind CSS, to display real-time vehicle logs and fare calculations. I integrated APIs from the FastAPI backend to fetch and visualize data, creating an intuitive experience for admins managing parking areas or entry gates.
+## 🎯 What I Built
+I developed AutoLog, a smart vehicle logging system that automates monitoring for parking areas and entry gates. My work focused on integrating camera-based detection with AI-driven image processing and OCR to capture vehicle details like license plates, types, and timestamps. I built a FastAPI backend to handle real-time data, stored it in a cloud-hosted PostgreSQL database, and created a React-based web dashboard for admins to view logs and manage fares. This project eliminates manual tracking, reduces errors, and enhances parking efficiency.
 
-## 🎯 Why It’s Cool
-This frontend makes AutoLog’s vehicle tracking seamless and visually appealing. It connects to a backend to show live data, like license plates and entry times, in a dashboard that’s easy to navigate, helping parking management go from manual chaos to automated clarity.
+## 💡 Why It Matters
+AutoLog replaces slow, error-prone manual vehicle logging with an intelligent, automated solution. It uses AI to log data instantly, stores it securely in the cloud, and presents it through a user-friendly dashboard, making parking management faster and more transparent for residential, commercial, and smart city use cases.
 
 ## 🛠 Tech Stack
-- **React**: Core framework for building the UI
-- **Tailwind CSS**: For modern, responsive styling
-- **HTML/CSS**: Structure and custom styles
-- **Create React App**: Boilerplate for quick setup and build tools
-- **Axios/Fetch**: For API calls to the FastAPI backend (assumed)
+- **Image Processing**: LLM model + traditional image processing for vehicle detection and OCR
+- **Frontend**: React, HTML, CSS, Tailwind CSS
+- **Backend**: Python, FastAPI
+- **Database**: PostgreSQL (cloud-hosted)
+- **Cloud**: Cloud storage for real-time, secure data access
 
-## 🌈 Key Features
-- 📊 **Real-Time Dashboard**: Displays vehicle logs and parking fares
-- 🎨 **Responsive Design**: Looks great on desktop and mobile
-- ⚡ **Fast Setup**: Bootstrapped with Create React App for easy development
-- 🔗 **API Integration**: Pulls data from the backend for live updates
+## ✨ Key Features
+- 🚀 **Automated Logging**: Captures vehicle identity, type, and timestamps using AI and OCR
+- ⏱️ **Real-Time Access**: View logs instantly via a web dashboard
+- 💸 **Fare Calculation**: Automates parking fees based on duration
+- 🔒 **Cloud Storage**: Securely stores data for scalability
+- 🖥️ **User-Friendly UI**: Clean, responsive dashboard for admins
+
+## 🖱️ How It Works
+- Upload or stream camera footage to detect vehicles
+- AI processes images to extract license plates and vehicle types
+- Data is logged in PostgreSQL and stored in the cloud
+- Admins view real-time logs and fare calculations on the React dashboard
+
+## 🤝 Contribute
+Got ideas to make AutoLog even better? Fork the repo and submit a Pull Request!
 
 ## 📜 License
 MIT License
